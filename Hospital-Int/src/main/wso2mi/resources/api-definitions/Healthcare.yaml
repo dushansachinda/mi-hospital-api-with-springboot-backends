@@ -12,8 +12,6 @@ paths:
       - name: doctorType
         in: path
         required: true
-        style: simple
-        explode: false
         schema:
           type: string
       responses:
