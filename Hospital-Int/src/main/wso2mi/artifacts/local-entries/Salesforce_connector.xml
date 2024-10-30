@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="Salesforce_connector" xmlns="http://ws.apache.org/ns/synapse">
+  <salesforcerest.init>
+    <connectionType>init</connectionType>
+    <name>Salesforce_connector</name>
+    <timeout>3000</timeout>
+    <apiVersion>v44.0</apiVersion>
+    <hostName>{$ctx:SALESFORCE_HOST_NAME}</hostName>
+    <tokenEndpointHostname>{$ctx:SALESFORCE_TOKEN_ENDPOINT}</tokenEndpointHostname>
+    <clientSecret>{$ctx:SALESFORCE_CLIENT_SECRET}</clientSecret>
+    <clientId>{$ctx:SALESFORCE_CLIENT_ID}</clientId>
+    <apiUrl>{$ctx:SALESFORCE_API_URL}</apiUrl>
+    <username>{$ctx:SALESFORCE_USERNAME}</username>
+    <password>{$ctx:SALESFORCE_PASSWORD}</password>
+  </salesforcerest.init>
+</localEntry>
