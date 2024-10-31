@@ -22,3 +22,4 @@ paths:
       responses:
         default:
           description: Default response
+
